@@ -1,0 +1,21 @@
+#container{
+    height: 500px;
+    display: flex;
+    background-color: chocolate;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.item{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+#d5{
+    order: 15;
+    flex-basis: 100px;
+}
+#d13{
+    order: -1;
+}
